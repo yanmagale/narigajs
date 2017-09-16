@@ -1,0 +1,26 @@
+{
+  "name": "narigajs",
+  "version": "1.0.0",
+  "description": "A node module that reports about air quality in a region",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanmagale/narigajs.git"
+  },
+  "keywords": [
+    "air",
+    "quality"
+  ],
+  "author": "Yan Magalhaes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yanmagale/narigajs/issues"
+  },
+  "homepage": "https://github.com/yanmagale/narigajs#readme",
+  "dependencies": {
+    "axios": "^0.16.2"
+  }
+}
