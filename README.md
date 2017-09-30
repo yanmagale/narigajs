@@ -10,7 +10,9 @@ A node module that reports about air quality in a region
 
 
 # How it works
+I'm consulting https://openweathermap.org/current API data.
 
+I will put your example to consulting API here.
 
 
 # API
