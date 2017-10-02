@@ -4,7 +4,7 @@
   "description": "A node module that reports about air quality in a region",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/*.js"
+    "test": "ENV_MODE=TEST mocha --timeout 2000 test/*.js"
   },
   "repository": {
     "type": "git",
