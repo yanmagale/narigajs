@@ -19,17 +19,20 @@
     "npm": "5.x.x"
   },
   "author": "Yan Magalhaes",
-  "contributors": [{
-    "name": "Diego Ramos",
-    "email": "rdiego26@gmail.com"
-  }],
+  "contributors": [
+    {
+      "name": "Diego Ramos",
+      "email": "rdiego26@gmail.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yanmagale/narigajs/issues"
   },
   "homepage": "https://github.com/yanmagale/narigajs#readme",
   "dependencies": {
-    "axios": "^0.16.2"
+    "axios": "^0.16.2",
+    "node-fetch": "^1.7.3"
   },
   "devDependencies": {
     "chai": "^4.1.2",
