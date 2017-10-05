@@ -4,7 +4,8 @@
   "description": "A node module that reports about air quality in a region",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ENV_MODE=TEST mocha --timeout 2000 test/*.js",
+    "cover": "ENV_MODE=TEST istanbul cover _mocha"
   },
   "repository": {
     "type": "git",
@@ -14,13 +15,29 @@
     "air",
     "quality"
   ],
+  "engines": {
+    "node": "8.x.x",
+    "npm": "5.x.x"
+  },
   "author": "Yan Magalhaes",
+  "contributors": [
+    {
+      "name": "Diego Ramos",
+      "email": "rdiego26@gmail.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yanmagale/narigajs/issues"
   },
   "homepage": "https://github.com/yanmagale/narigajs#readme",
   "dependencies": {
-    "axios": "^0.16.2"
+    "axios": "^0.16.2",
+    "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.5.3"
   }
 }

@@ -56,4 +56,7 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
+
+# Webstorm files
+.idea/
 .env
