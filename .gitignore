@@ -1,5 +1,4 @@
-# Created by .ignore support plugin (hsz.mobi)
-### Node template
+### Node ###
 # Logs
 logs
 *.log
@@ -57,7 +56,7 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
 
 # Webstorm files
 .idea/
+.env
