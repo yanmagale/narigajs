@@ -1,5 +1,6 @@
 # Nariga JS
-A node module that reports about air quality in a region .
+A node module that reports about air quality in a region .  
+[![Dependencies](https://david-dm.org/yanmagale/narigajs.svg)](https://david-dm.org/yanmagale/narigajs.svg)
 
 
 # Motivation
