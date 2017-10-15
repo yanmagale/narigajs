@@ -1,7 +1,8 @@
 # Nariga JS
 A node module that reports about air quality in a region .  
-[![Known Vulnerabilities](https://snyk.io/test/github/yanmagale/narigajs/badge.svg)](https://snyk.io/test/github/yanmagale/narigajs)  
+[![Known Vulnerabilities](https://snyk.io/test/github/yanmagale/narigajs/badge.svg)](https://snyk.io/test/github/yanmagale/narigajs)
 [![Dependencies](https://david-dm.org/yanmagale/narigajs.svg)](https://david-dm.org/yanmagale/narigajs.svg)
+<a href="https://www.npmjs.org/package/awesome-badges"><img src="https://img.shields.io/npm/l/awesome-badges.svg" alt="npm license" class="badge"></a>
 
 # Motivation
 
