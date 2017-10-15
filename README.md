@@ -34,7 +34,11 @@ Returns [json data](https://openweathermap.org/current#geo) .
 
 ### getByZipCodeAndCountryCode(zipCode, countryCode)
 Requires a two strings representing zipCode and countryCode.
-Returns [json data](https://openweathermap.org/current#zip) .
+Returns [json data](https://openweathermap.org/current#zip) .  
+
+### getByCitiesAndUnit(citiesIds, unit)
+Requires a number list and string representing citiesIds and unit.
+Returns [json data](https://openweathermap.org/current#severalid) .
 
 
 ## Contributing
