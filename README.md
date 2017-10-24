@@ -1,8 +1,8 @@
 # Nariga JS
-A node module that reports about air quality in a region .
-[![Known Vulnerabilities](https://snyk.io/test/github/yanmagale/narigajs/badge.svg)](https://snyk.io/test/github/yanmagale/narigajs)  
+A node module that reports about air quality in a region .  
+[![Known Vulnerabilities](https://snyk.io/test/github/yanmagale/narigajs/badge.svg)](https://snyk.io/test/github/yanmagale/narigajs)
 [![Dependencies](https://david-dm.org/yanmagale/narigajs.svg)](https://david-dm.org/yanmagale/narigajs.svg)
-
+<a href="https://www.npmjs.org/package/awesome-badges"><img src="https://img.shields.io/npm/l/awesome-badges.svg" alt="npm license" class="badge"></a>
 
 # Motivation
 
@@ -34,7 +34,11 @@ Returns [json data](https://openweathermap.org/current#geo) .
 
 ### getByZipCodeAndCountryCode(zipCode, countryCode)
 Requires a two strings representing zipCode and countryCode.
-Returns [json data](https://openweathermap.org/current#zip) .
+Returns [json data](https://openweathermap.org/current#zip) .  
+
+### getByCitiesAndUnit(citiesIds, unit)
+Requires a number list and string representing citiesIds and unit.
+Returns [json data](https://openweathermap.org/current#severalid) .
 
 
 ## Contributing

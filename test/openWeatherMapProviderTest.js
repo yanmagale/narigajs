@@ -81,4 +81,20 @@ describe('OpenWeatherMap', () => {
         });
     });
 
+	it('getByCitiesAndUnit', done => {
+		const _ids = '524901,703448';
+    const _unit = 'metric';
+
+		provider.getByCitiesAndUnit(_ids, _unit).then(response => {
+			response.json().then(json => {
+				assert.isObject(json);
+				assert.isNumber(json.cnt);
+				assert.isArray(json.list);
+				done();
+			}).catch(error => {
+				throw error;
+			});
+		});
+	});
+
 });
