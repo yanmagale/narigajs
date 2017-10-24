@@ -8,6 +8,7 @@ A node module that reports about air quality in a region .
 
 
 # Why this name?
+It's a brazilian joke about big nose. 
 Just look at my photo. LOL
 
 
