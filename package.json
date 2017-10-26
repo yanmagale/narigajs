@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "ENV_MODE=TEST mocha --timeout 2000 test/*.js",
-    "cover": "ENV_MODE=TEST istanbul cover _mocha"
+    "cover": "ENV_MODE=TEST istanbul cover _mocha",
+    "prepush": "npm run test"
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,7 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
+    "husky": "^0.14.3",
     "istanbul": "^0.4.5",
     "mocha": "^3.5.3"
   }
